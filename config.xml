@@ -1,12 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<widget id="io.cordova.hellocordova" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Group Fitness Go</name>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "org.coenraets.employeedirectory"
+        versionCode = "10"
+        version     = "1.1.0">
+ 
+    <name>Employee Directory</name>
+ 
     <description>
-        A basic scheduling app that can help JMU students find and sign up for Urec Group Fitness classes.
+       A basic scheduling app that can help JMU students find and sign up for Urec Group Fitness classes.
     </description>
+ 
     <author email="connerag@dukes.jmu.edu" >
         Alex Conner
     </author>
-    <content src="index.html" />
-    <access origin="*" />
+ 
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/contacts"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/media"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+ 
 </widget>
